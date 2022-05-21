@@ -1,0 +1,39 @@
+.container {
+  margin: 10px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: rgb(218, 218, 218);
+}
+.input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.submit {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 140px;
+}
+.submit input {
+  box-sizing: border-box;
+  color: white;
+  width: 60px;
+  background-color: #161ae9;
+  border-radius: 12px;
+  display: inline-block;
+  text-align: center;
+}
+.satu {
+  margin-left: 50px;
+}
+select {
+  margin-left: 80px;
+}
+.dua {
+  margin-left: 69px;
+}
+.tiga {
+  margin-left: 107px;
+}
+.empat {
+  margin-left: 60px;
+}
