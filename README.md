@@ -5,11 +5,9 @@ Kelas : TI.20.A.2
 # Lab8Web
 
 Menjalankan MySQL Server
-
 Untuk menjalankan MySQL Server dari menu XAMPP Contol.
 
 Mengakses MySQL Client menggunakan PHP MyAdmin
-
 Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian buka
 melalui browser: http://localhost/phpmyadmin/
 
@@ -20,21 +18,13 @@ CREATE DATABASE latihan1;
 ### Membuat Tabel
 
 CREATE TABLE data_barang (
-
 id_barang int(10) auto_increment Primary Key,
-
 kategori varchar(30),
-
 nama varchar(30),
-
 gambar varchar(100),
-
 harga_beli decimal(10,0),
-
 harga_jual decimal(10,0),
-
 stok int(4)
-
 );
 
 Tampilan di phpMyadmin
@@ -44,11 +34,8 @@ Tampilan di phpMyadmin
 ### Menambahkan Data
 
 INSERT INTO data_barang (kategori, nama, gambar, harga_beli, harga_jual, stok)
-
 VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 5),
-
 ('Elektronik', 'HP Xiaomi Android', 'hp_xiaomi.jpg', 1000000, 1400000, 5),
-
 ('Elektronik', 'HP OPPO Android', 'hp_oppo.jpg', 1800000, 2300000, 5);
 
 ![Gambar 2](screenshot/ss1c.png)
@@ -56,7 +43,6 @@ VALUES ('Elektronik', 'HP Samsung Android', 'hp_samsung.jpg', 2000000, 2400000, 
 ### Membuat Program CRUD
 
 Buat folder lab8_php_database pada root directory web server (d:\xampp\htdocs)
-
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL:
 http://localhost/lab8_php_database/
 
